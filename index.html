@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Himgirienterprise</title>
+  <meta name="title" content="Himgirienterprise">
+  <meta name="description" content="Established in 1992, HIMGIRI MARBLE stands as a renowned entity in the tile sector, holding the esteemed privilege to showcase leading brands such as Somany, Johnson, Rak, Cera, and NITCO. Our portfolio encompasses an extensive selection of tiles, stones, and adhesives, designed to meet every requirement. Dedicated to excellence and the fulfillment of our customers, our goal is to serve as your comprehensive source for all tile-related solutions.">
   <link rel="icon" type="image/x-icon" href="favicon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,6 +20,9 @@
       font-size: 15px;
       line-height: 1.2;
       font-family: "Rubik", sans-serif;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
     }
     .container {
       max-width: 1230px;
@@ -31,6 +36,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
+      flex: 1 1 auto;
     }
     .logo-wrapper {
       display: block;
@@ -126,6 +132,26 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
+    }
+    .copyright {
+      background: #f1f1f1;
+      padding: 7px 10px;
+      line-height: 1;
+    }
+    .copyright p {
+      margin: 0;
+      padding: 0;
+      font-weight: 400;
+      color: #000;
+      font-size: 13px;
+      line-height: 1.2;
+    }
+    .copyright .container {
+      display: flex;
+      justify-content: space-between;
+    }
+    .copyright p a {
+      color: #000;
     }
     @media only screen and (max-width: 767px){
       body {
@@ -233,6 +259,12 @@
           </ul>
         </div>
       </div>
+  </div>
+  <div class="copyright">
+    <div class="container">
+      <p>Copyright © 2024 Himgiri Enterprise</p>
+      <p>Design and Developer By <a href="https://webdotinfotech.com/">Web. Infotech</a></p>
+    </div>      
   </div>
 </body>
 </html>
