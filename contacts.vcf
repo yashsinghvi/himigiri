@@ -1,0 +1,21 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:Suraj Chhajed
+N:Chhajed;Suraj;;;
+item1.EMAIL;TYPE=INTERNET:chhajed751@gmail.com
+item1.X-ABLabel:
+item2.TEL:84605 75458
+item2.X-ABLabel:
+item3.ADR:;Nr.\, Bharat Cancer Hospital;Surat - Kadodara Rd;Kadodara;Gujara
+ t;;IN;Surat - Kadodara Rd\nNr.\, Bharat Cancer Hospital\nKadodara\, Gujara
+ t\nIN
+item3.X-ABLabel:
+item4.ORG:Himgiri Enterprise
+item4.X-ABLabel:
+item5.URL:himgirienterprise.com
+item5.X-ABLabel:
+NOTE:Tiles\,Marbel
+PHOTO:https://lh3.googleusercontent.com/contacts/AG6tpzFcRSkufuQ5Ub-7SoFU2T
+ lokP3GsrdRLlJGaJ5ehpYzyu0h942y
+CATEGORIES:myContacts
+END:VCARD
