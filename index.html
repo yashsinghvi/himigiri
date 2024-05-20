@@ -7,20 +7,20 @@
   <!-- Primary Meta Tags -->
   <title>Himgirienterprise</title>
   <meta name="title" content="Himgirienterprise" />
-  <meta name="description" content="Established in 1992, HIMGIRI MARBLE stands as a renowned entity in the tile sector, holding the esteemed privilege to showcase leading brands such as Somany, Johnson, Rak, Cera, and NITCO. Our portfolio encompasses an extensive selection of tiles, stones, and adhesives, designed to meet every requirement. Dedicated to excellence and the fulfillment of our customers, our goal is to serve as your comprehensive source for all tile-related solutions." />
+  <meta name="description" content="Since 1992, HIMGIRI MARBLE has been a trusted name in the tile industry, authorized to represent top brands like Somany, Johnson, Rak, Cera, and NITCO. We pride ourselves on offering a comprehensive range of tiles,stones and adhesives, catering to all your needs. With a commitment to quality and customer satisfaction, we strive to be your one-stop destination for all things tiles." />
 
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://himgirienterprise.com/" />
   <meta property="og:title" content="Himgirienterprise" />
-  <meta property="og:description" content="Established in 1992, HIMGIRI MARBLE stands as a renowned entity in the tile sector, holding the esteemed privilege to showcase leading brands such as Somany, Johnson, Rak, Cera, and NITCO. Our portfolio encompasses an extensive selection of tiles, stones, and adhesives, designed to meet every requirement. Dedicated to excellence and the fulfillment of our customers, our goal is to serve as your comprehensive source for all tile-related solutions." />
+  <meta property="og:description" content="Since 1992, HIMGIRI MARBLE has been a trusted name in the tile industry, authorized to represent top brands like Somany, Johnson, Rak, Cera, and NITCO. We pride ourselves on offering a comprehensive range of tiles,stones and adhesives, catering to all your needs. With a commitment to quality and customer satisfaction, we strive to be your one-stop destination for all things tiles." />
   <meta property="og:image" content="background.jpg" />
 
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image" />
   <meta property="twitter:url" content="https://himgirienterprise.com/" />
   <meta property="twitter:title" content="Himgirienterprise" />
-  <meta property="twitter:description" content="Established in 1992, HIMGIRI MARBLE stands as a renowned entity in the tile sector, holding the esteemed privilege to showcase leading brands such as Somany, Johnson, Rak, Cera, and NITCO. Our portfolio encompasses an extensive selection of tiles, stones, and adhesives, designed to meet every requirement. Dedicated to excellence and the fulfillment of our customers, our goal is to serve as your comprehensive source for all tile-related solutions." />
+  <meta property="twitter:description" content="Since 1992, HIMGIRI MARBLE has been a trusted name in the tile industry, authorized to represent top brands like Somany, Johnson, Rak, Cera, and NITCO. We pride ourselves on offering a comprehensive range of tiles,stones and adhesives, catering to all your needs. With a commitment to quality and customer satisfaction, we strive to be your one-stop destination for all things tiles." />
   <meta property="twitter:image" content="background.jpg" />
 
   <!-- Meta Tags Generated with https://metatags.io -->
@@ -222,8 +222,23 @@
       width: 16px;
       fill: #fff;
     }
-
+    .logo-wrapper img:nth-child(2) {
+      display: none;
+    }
+    .video_banner video {
+      max-width: 100%;
+      display: block;
+    }
+    .video_banner {
+      margin: 0 -15px;
+    }
     @media only screen and (max-width: 767px){
+      .logo-wrapper img:nth-child(2) {
+        display: block;
+      }
+      .logo-wrapper img:nth-child(1) {
+        display: none;
+      }
       body {
         font-size: 14px;
       }
@@ -231,7 +246,7 @@
         padding: 30px 0;
       }
       .logo-wrapper {
-        max-width: 110px;
+        max-width: 250px;
       }
       .user_infomation .user_image {
         width: 80px;
@@ -272,7 +287,15 @@
 <body>
   <div class="main" id="main">
       <div class="container">
-        <div class="logo-wrapper"><a href="index.html"><img src="logo.png" height="200" width="200" alt="Himgirienterprise"></a></div>
+        <div class="logo-wrapper">
+          <a href="index.html">
+            <img src="logo.png" height="200" width="200" alt="Himgirienterprise">
+            <img src="mobile_logo.png" height="200" width="200" alt="Himgiri Enterprise">
+          </a>
+        </div>
+        <div class="video_banner">
+          <video src="HIMIGIRI MARBLES.mp4" muted="muted" autoplay loop muted></video>
+        </div>
         <div class="user_infomation">
           <span class="user_image">
             <img src="user_image.png" height="200" width="200" alt="Suraj Chhajed"/>
@@ -297,7 +320,7 @@
               </a>
             </li>
             <li class="mail">
-              <a href="mailto:chhajed751@gmail.com?&subject=Enquire%20For%20Titles" target="_top">
+              <a href="mailto:himgirienterprise751@gmail.com?&subject=Enquire%20For%20Titles" target="_top">
                 <span class="icon-wrap"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M64 96c-17.7 0-32 14.3-32 32v39.9L227.6 311.3c16.9 12.4 39.9 12.4 56.8 0L480 167.9V128c0-17.7-14.3-32-32-32H64zM32 207.6V384c0 17.7 14.3 32 32 32H448c17.7 0 32-14.3 32-32V207.6L303.3 337.1c-28.2 20.6-66.5 20.6-94.6 0L32 207.6zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z"/></svg></span>
                 <span>Send Mail</span>
               </a>
